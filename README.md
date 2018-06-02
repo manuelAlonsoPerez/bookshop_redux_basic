@@ -1,6 +1,6 @@
 ## Project Description:
 
-This project recreates in React a youtube interface. The videos are loaded from Youtube Api based on the keyword introduced in the seacrh bar.
+This project recreates a basic bookshop interface. The books are fetched from the App state using Redux.
 
 The project is done together with the great React and Redux turorial from Stephen Grider:
 
@@ -25,13 +25,13 @@ Check also npm is installed
 
 #### On linux terminal
 
-1. In target directory clone the repository from gitLab
+1. In target directory clone the repository from gitHub
 
-	` git clone https://github.com/manuelAlonsoPerez/youtube_like_interface.git`
+	` git clone https://github.com/manuelAlonsoPerez/bookshop_redux_basic.git`
 
 2. Navigate to project folder
 
-	`cd youtube_like_interface`
+	`cd bookshop_redux_basic`
 
 3. Install package
 
@@ -53,8 +53,7 @@ Download  .zip, .tar, .tar.gz or .tar compressed package, decompress it to targe
 
 ## Status
 
-The  project is working and is possible to introduce new searches. The searchbar is dessigned as a controlled component, any value update will trigger a new search in the Youtube Api and re-render the components.
-All new searches are debounced to improve smooth functioning.
-
+The  project is working and is possible to select different books. The books array is placed in the App state and accesed with Redux.
 
 ![](./bookshop_basic_redux.png)
+
